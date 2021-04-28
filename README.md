@@ -50,8 +50,6 @@ npm i docsify-cli -g
 
 #### 3.本地预览
 
-精英日课
-
 通过运行 docsify serve 启动一个本地服务器，可以方便地实时预览效果。默认访问地址 http://localhost:3000 。  
 
 docsify serve xxx，这里我们启动之前新建的hello项目。
@@ -78,7 +76,7 @@ docsify serve xxx，这里我们启动之前新建的hello项目。
 
 如果需要创建多个页面，或者需要多级路由的网站，在 docsify 里也能很容易的实现。例如创建一个 guide.md 文件，那么对应的路由就是 /#/guide。
 
-<img src="/image/image-20210427162214077.png" alt="image-20210427162214077" style="zoom:80%;" />
+<img src="/image/image-20210427162214077.png" alt="image-20210427162214077"/>
 
 在hello项目下新建一个WORK_BTR.md，然后同样使用Typora对其进行编辑，预览时特别注意网址的写法。
 
