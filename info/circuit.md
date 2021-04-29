@@ -1,3 +1,8 @@
+---
+typora-root-url: ./
+typora-copy-images-to: ..\image\circuit
+---
+
 ## 视频笔记
 
 ### 开关电源
