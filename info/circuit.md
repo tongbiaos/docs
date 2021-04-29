@@ -16,8 +16,8 @@ typora-copy-images-to: ..\image\circuit
 
 第2篇
 
-<video width="480" height="400" controls> 
-	<source src="./image/circuit/开关电源原理讲解2——串联型.mp4" type="video/mp4"> 
+<video width="480" height="400" controls>
+    <source src="./image/circuit/开关电源原理讲解2——串联型.mp4" type="video/mp4"> 
 </video>
 
 第3篇
