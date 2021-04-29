@@ -10,7 +10,7 @@ typora-copy-images-to: ..\image\circuit
 第1篇
 
 <video width="480" height="400" controls>    
-	<source src="/../image/circuit/开关电源原理讲解1.mp4" type="video/mp4"> 
+	<source src="./image/circuit/开关电源原理讲解1.mp4" type="video/mp4"> 
 </video>
 
 第2篇
