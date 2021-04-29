@@ -9,24 +9,54 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
 </head>
 <body>
+  <!-- 
   <nav>
-    <a href="#/">首页</a>
-    <a href="#/info/readme">info目录</a>
+    <a href="#/info/circuit">电子电路</a>
+    <a href="#/info/hongAcademy">鸿学院</a>
+	<a href="#/">文档指南</a>
   </nav>
+   -->
   <div id="app">加载中.......</div>
   <script>
     window.$docsify = {
-      name: '系统信息',
+      name: 'TB’s Lib',
 	  //仓库地址
       repo: 'https://github.com/tongbiaos/docs',
 	  //自定义侧边栏
-	  loadSidebar: true,
+	  //loadSidebar: true,
+	  //自定义导航栏
+	  loadNavbar: true,
 	  //开启目录，并设置最大层级
 	  subMaxLevel: 6,
 	  //开启封面
 	  //coverpage: true,
 	  //开启全文检索
-	  search: 'auto', // 默认值
+	  //search: 'auto', // 默认值
+	  search: {       
+		maxAge: 86400000, // 过期时间，单位毫秒，默认一天       
+		paths: [
+		  '/README',
+		  '/WORK_BTR',
+		  '/info/circuit',
+		  '/info/hongAcademy',
+		  '/info/eliteClass',
+		  '/info/bookNotes',
+		  '/info/history',
+		  '/info/readme',
+		], // or 'auto'
+		placeholder: 'Type to search',
+		// 搜索标题的最大层级, 1 - 6       
+		depth: 6,
+	  },
+	  //字数统计
+	  count:{
+		countable:true,
+		fontsize:'0.9em',
+		color:'rgb(90,90,90)',
+		language:'chinese'
+	  },
+	  //Disqus评论系统支持,好像没效果啊
+	  //disqus: 'shortname',
     }
   </script>
   <!-- Docsify v4 -->
@@ -34,6 +64,12 @@
   <!-- 全局检索 -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <!-- 图片缩放 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>-->
+  <!-- 字数统计 -->
+  <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+  <!-- Disqus评论系统支持,好像没效果啊 -->
+  <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/disqus.min.js"></script> -->
+  <!-- 所有的代码块上添加一个简单的Click to copy按钮来允许用户从你的文档中轻易地复制代码 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
 </body>
 </html>
