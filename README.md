@@ -233,7 +233,15 @@ https://github.com/iPeng6/docsify-sidebar-collapse
 
 #### 1.部署到github
 
+##### 域名映射
 
+这里我使用一个我的二级域名来完成映射，修改github上的pages中Custom domain。
+
+![image-20210502173633522](/image/image-20210502173633522.png)
+
+在阿里云上配置一下二级域名的映射记录，注意记录类型。
+
+![image-20210502173822135](/image/image-20210502173822135.png)
 
 #### 2.部署到码云
 
@@ -278,6 +286,14 @@ https://github.com/iPeng6/docsify-sidebar-collapse
 ![image-20210429201726034](/image/image-20210429201726034.png)
 
 ![image-20210429201804001](/image/image-20210429201804001.png)
+
+### 插入pdf
+
+![image-20210502171113415](/image/image-20210502171113415.png)
+
+在PC上显示正常，还可以显示指定页数，但是在android上就显示得不是太好。
+
+![image-20210502171418483](/image/image-20210502171418483.png)
 
 ### 本页内/其他页跳转
 
