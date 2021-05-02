@@ -241,7 +241,7 @@ https://github.com/iPeng6/docsify-sidebar-collapse
 
 注意配置完成之后会多一个CNAME文件。
 
-![image-20210502181958348](/C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20210502181958348.png)
+![image-20210502182849710](/image/image-20210502182849710.png)
 
 在阿里云上配置一下二级域名的映射记录，注意记录类型。
 
