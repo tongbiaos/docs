@@ -19,4 +19,5 @@
   * [精英日课](info/eliteClass)
   * [读书笔记](info/bookNotes)
   * [历史](info/history)
-  * [说明](info/readme)
+  * [素材库](info/readme)
+  * [计划总结](info/planSummary)
