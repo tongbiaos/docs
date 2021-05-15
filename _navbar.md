@@ -3,6 +3,7 @@
 * 电路
 
   * [电子电路](info/circuit)
+  * [电子设备](info/electricalPro)
   * [文档指南](/README.md)
 
 * 网络

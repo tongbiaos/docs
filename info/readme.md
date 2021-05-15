@@ -9,8 +9,6 @@ typora-root-url: ./
 
 很多人讲书，像成功学、科学作家等，但是很少人讲专业方面的书，这个倒是可以尝试尝试，利用专业书，并结合一些优秀的论文来分享专业方向的知识。
 
-![image-20210514132807620](/../image/readme/image-20210514132807620.png)
-
 ## 梯子
 
 现在用的还有我买的那个，我按季度买的，还有些日子才过期。用的是这个平台的https://billing.virmach.com/index.php?rp=/store/kvm-and-ssd-windows-vps
