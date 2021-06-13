@@ -11,6 +11,12 @@ digital scope 数字示波器
 
 ## 仪器仪表
 
+### can分析仪
+
+#### 波特率侦测
+
+![1672](/../image/electricalPro/1672.png)
+
 ### 示波器
 
 #### 总结归纳
@@ -183,9 +189,13 @@ DS：电压0.92V
 
 视频中提到OSCH02单通道时能做到1G的等效采样，250M的实时采样，带宽可以到100M。
 
+单通道模式下，采样率可提高到250M
+
 ![](/../image/electricalPro/image-20210515095053372.png)
 
 ![image-20210515095118382](/../image/electricalPro/image-20210515095118382.png)
+
+时间档位设置为10ns时，能有1G的等效采样
 
 ![image-20210515095148333](/../image/electricalPro/image-20210515095148333.png)
 
@@ -195,15 +205,45 @@ DS：电压0.92V
 
 参考视频：https://www.bilibili.com/video/BV16f4y1q7ce
 
+仪器的DE1口的第6引脚可以输出标准方波、PWM和脉冲。
+
 ![image-20210516120653095](/../image/electricalPro/image-20210516120653095.png)
 
 ![image-20210516120842705](/../image/electricalPro/image-20210516120842705.png)
 
+实际操作，打开软件右下角的“PWM|Pulse”按键，在弹窗中可设置方波、PWM和脉冲。
 
+![image-20210519112913622](/../image/electricalPro/image-20210519112913622.png)
 
+可以看到弹窗的左下角显示了脉冲宽度。
 
+![image-20210519112556380](/../image/electricalPro/image-20210519112556380.png)
 
+查看脉冲时，需要使用脉冲触发模式观测，这样比较容易看到发出来的脉冲。
 
+注意：实际使用中，有时候按下Pulse没有反应，不知道是没有发出脉冲，还是没有捕获到，这个时候可尝试重新启动连接一下示波器。
+
+![image-20210519115118160](/../image/electricalPro/image-20210519115118160.png)
+
+##### 通讯协议解析
+
+![can数据](/C:/Users/Administrator/Desktop/can数据.jpg)
+
+##### 信号发生器
+
+视频链接：https://www.bilibili.com/video/BV1jJ411r7a9
+
+按视频中说，最大频率可以为13MHz。
+
+一个旋钮是 增益按钮，一个旋钮是 偏置电压。
+
+![image-20210518190118212](/../image/electricalPro/image-20210518190118212.png)
+
+![image-20210518174113856](/../image/electricalPro/image-20210518174113856.png)
+
+支持扫频功能
+
+![image-20210524161823175](/../image/electricalPro/image-20210524161823175.png)
 
 
 

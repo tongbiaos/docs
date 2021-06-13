@@ -5,6 +5,10 @@ typora-copy-images-to: ..\image\eliteClass
 
 ## 精英日课
 
+出自于 精英日课4 - “一个人工作，十九个人围观”，评论
+
+![image-20210517115600374](/../image/eliteClass/image-20210517115600374.png)
+
 ### 物理学
 
 物理学史：从大尺度和小尺度2个方向来梳理一下物理学的脉络。
